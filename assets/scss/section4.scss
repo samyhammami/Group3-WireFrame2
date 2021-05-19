@@ -1,0 +1,88 @@
+@use "general" as *;
+
+/* section 3 */
+.three{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+.slogan-container{
+    width: 80%;
+    p{
+        font-size:1.75em;
+        text-align: center;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        color: rgb(51, 51, 51);
+    }
+}
+
+   
+
+/* section 4 */
+.four{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.usp-container{
+    width: 90%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.usp-box{
+    width: 300px;
+    height: 300px;
+    background-color: $grey;
+    padding: 0px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    .usp-icon{
+        height: 50px;
+        width: auto;
+        margin:15px 0;
+    }
+
+    h3{
+        margin: 10;
+    }
+
+    p{  
+        margin:0;
+        text-align: center;
+        color: $grey-text;
+        line-height:1.5em;
+        padding:0 30px;
+    }
+}
+
+/* section 4 mobile */
+
+@media (max-width: 480px) {
+    .usp-box{
+        width: auto;
+        height: auto;
+        .usp-icon{
+            margin-top:40px;
+        }
+        h3{
+            margin-bottom:5;
+        }
+        p{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,116 @@
+.five {}
+
+.sectionFive-wrapper {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    align-items: center;
+    align-self: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.sectionFive-wrapper .info {
+    flex-grow: 1;
+    display: flex;
+    width: 50%;
+    flex-flow: column;
+    padding: 0 40px;
+}
+
+.sectionFive-wrapper .info h4 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.sectionFive-wrapper .info p,
+.sectionFive-wrapper .info ul {
+    color: grey;
+    list-style: none;
+    padding: 0;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.sectionFive-wrapper .info i {
+    font-size: 0.7em;
+    color: #594cda;
+}
+
+.sectionFive-wrapper .info .bouton1 {
+    background-color: #594cda;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 2rem;
+    margin: 4px 2px;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.sectionFive-wrapper .info .bouton2 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 4px 2px;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.sectionFive-wrapper .image {
+    flex: 1;
+    width: 50%;
+    align-self: center;
+}
+
+.sectionFive-wrapper .image img {
+    height: 300px;
+    width: auto;
+}
+
+#buttonTop {
+    display: inline-block;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+}
+
+#buttonTop:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#buttonTop:active {
+    background-color: #555;
+}
+
+#buttonTop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+
+/*# sourceMappingURL=Section5.css.map */

@@ -1,0 +1,39 @@
+body {
+  background-color: #9b094d;
+}
+
+/* fonts */
+@font-face {
+  font-family: "Font-Brands";
+  src: url("fonts/fa-brands-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-brands-400.woff2") format("woff2"), url("fonts/fa-brands-400.woff") format("woff"), url("fonts/fa-brands-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-brands-400.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Font-Regular";
+  src: url("fonts/fa-regular-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-regular-400.woff2") format("embedded-opentype"), url("fonts/fa-regular-400.woff2") format("woff2"), url("fonts/fa-regular-400.woff") format("woff"), url("fonts/fa-regular-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-regular-400.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Font-Solid";
+  src: url("fonts/fa-solid-900.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff"), url("fonts/fa-solid-900.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-solid-900.svg") format("svg");
+  /* Legacy iOS */
+}
+/* colors */
+/* overall styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: white;
+  font-family: "Font-Regular", sans-serif;
+  font-size: 0.85em;
+}
+
+/*# sourceMappingURL=general.css.map */

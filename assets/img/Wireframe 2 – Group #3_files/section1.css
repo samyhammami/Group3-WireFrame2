@@ -1,0 +1,42 @@
+.one {
+  max-width: 1600px;
+  position: relative;
+}
+
+.pagetop {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 300px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  margin-right: 115px;
+}
+
+.topnav > a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.name {
+  display: flex;
+}
+
+.brandlogo {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.brandlogo > i {
+  margin-right: 5px;
+  font-size: 19px;
+}
+
+/*# sourceMappingURL=section1.css.map */

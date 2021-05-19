@@ -1,0 +1,231 @@
+    /* comments that can be written in the css file*/
+
+@media (max-width: 480px) {
+    .number-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        align-content: center;
+    }
+}
+
+
+/* section 1 mobile*/
+
+
+/* comments that can be written in the css file*/
+
+
+/* general */
+
+@media (max-width: 480px) {
+    section {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* section 1 mobile */
+@media (max-width: 480px) {
+      .hamburger{
+        display: block;
+        margin-right: 10px;
+        font-size: 2em;
+      }
+      .topnav{
+        display: none;
+      }
+}
+
+
+/* section 2 mobile */
+
+@media (max-width: 480px) {
+    .two .two-container {
+        display: flex;
+        flex-flow: column;
+    }
+    .two .box {
+        flex: 1;
+    }
+}
+
+
+/* section 4 mobile */
+
+@media (max-width: 480px) {
+    .usp-box {
+        width: auto;
+        height: auto;
+    }
+    .usp-box .usp-icon {
+        margin-top: 40px;
+    }
+    .usp-box h3 {
+        margin-bottom: 5;
+    }
+    .usp-box p {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .two .two-container {
+        display: flex;
+        flex-flow: column;
+    }
+    .two .box {
+        flex: 1;
+    }
+    .four {
+        width: 95%;
+        margin: 2.5%;
+    }
+    .usp-box {
+        width: auto;
+        height: auto;
+        margin: 20px 0;
+    }
+    .usp-box .usp-icon {
+        margin-top: 40px;
+    }
+    .usp-box h3 {
+        margin-bottom: 5;
+    }
+    .usp-box p {
+        margin-bottom: 50px;
+    }
+    .usp-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+}
+
+
+/* section 5 mobile */
+
+@media (max-width: 480px) {
+    .five {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .sectionFive-wrapper {
+        width: 100%;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    .sectionFive-wrapper .info {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .sectionFive-wrapper .image {
+        width: 100%;
+    }
+    .sectionFive-wrapper .image img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+/* section 6 mobile */
+
+@media (max-width: 480px) {
+    .six {
+        width: 95%;
+        margin: 2.5%;
+    }
+    .number-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        align-content: center;
+    }
+    .six h3 {
+        margin: 10px 0;
+    }
+}
+
+
+/* Section 7*/
+
+@media (max-width: 480px) {
+    .testimony-container .title-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+    }
+    /* section 7 mobile */
+}
+
+
+/*# sourceMappingURL=mediaqueries.css.map */
+
+
+/* section 10 mobile */
+
+@media (max-width: 480px) {
+    .titlecontainer {}
+}
+
+/* section 8 mobile */
+
+@media (max-width: 480px) {
+    .eight {
+        background-size: cover;
+    }
+    .pricing-offer {
+        flex-flow: column;
+    }
+    @media (max-width: 480px) {
+        .eight {
+            background-size: cover;
+        }
+        .pricing-offer {
+            flex-flow: column;
+        }
+        .pricing-container {
+            margin: 0;
+        }
+        .pricing-tag {
+            padding: 10px;
+        }
+        .pricing-card {
+            margin: 50px 20px !important;
+        }
+    }
+    /* section 9 mobile */
+    @media (max-width: 480px) {
+        .flex-container9 {
+            flex-direction: column;
+        }
+        .Smartphone2 {
+            width: 100%;
+        }
+        .Smartphone2 img {
+            width: 100%;
+        }
+    }
+    /* section 10 mobile */
+    @media (max-width: 480px) {
+        .footer-contact {
+            flex-direction: column;
+        }
+    }
+@media (max-width: 480px) {
+  .footer-copyright {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .terms-wrapper{
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}

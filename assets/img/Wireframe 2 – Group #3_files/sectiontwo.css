@@ -1,0 +1,41 @@
+.two {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, white 0%, #c6e9f8 100%);
+}
+
+.text1 {
+  display: block;
+  margin: 250px;
+  margin-right: 90px;
+}
+
+.imageSmart {
+  margin: 150px;
+}
+
+.button {
+  padding: 35px;
+}
+
+.btn1 {
+  background-color: #594CDA;
+  text-align: center;
+  color: white;
+  border-radius: 2rem;
+  margin: 4px 2px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.btn2 {
+  background-color: #EB427D;
+  text-align: center;
+  color: white;
+  border-radius: 2rem;
+  margin: 4px 2px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=sectiontwo.css.map */

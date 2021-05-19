@@ -1,0 +1,102 @@
+.eight {
+    background-image: url("../img/pricing-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.pricing-tag {
+    text-align: center;
+    color: white;
+    padding: 75px;
+}
+
+.pricing-tag h2 {
+    font-size: 2em;
+}
+
+.pricing-tag p {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    line-height: 1.5em;
+}
+
+.pricing-offer {
+    display: flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
+}
+
+.pricing-offer .pricing-card {
+    flex: 1;
+    position: relative;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-offer .pricing-card h4 {
+    text-transform: uppercase;
+    color: #eb427d;
+}
+
+.pricing-offer .pricing-card .price {
+    font-size: 4em;
+    line-height: 0.3;
+    margin: 40px;
+}
+
+.pricing-offer .pricing-card .price .dollar {
+    font-size: 0.5em;
+    margin: 5px;
+}
+
+.pricing-offer .pricing-card .price .monthly {
+    font-size: 0.25em;
+    color: grey;
+}
+
+.pricing-offer .pricing-card ul {
+    font-size: 0.95em;
+    color: grey;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 20px 50px 20px;
+}
+
+.pricing-offer .pricing-card ul li {
+    margin: 10px 0;
+}
+
+.pricing-offer .pricing-card ul li i {
+    font-size: 0.7em;
+    color: #594cda;
+}
+
+.pricing-offer .pricing-card ul li:first-child {
+    margin-top: 15px;
+}
+
+.pricing-offer .pricing-card button {
+    background-color: #594cda;
+    color: white;
+    padding: 15px 35px;
+    border: 0;
+    border-radius: 25px;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+
+/*# sourceMappingURL=section8.css.map */

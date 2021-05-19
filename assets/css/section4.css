@@ -1,0 +1,90 @@
+/* fonts */
+@font-face {
+  font-family: "Font-Brands";
+  src: url("fonts/fa-brands-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("fonts/fa-brands-400.woff2") format("woff2"), url("fonts/fa-brands-400.woff") format("woff"), url("fonts/fa-brands-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-brands-400.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Font-Regular";
+  src: url("fonts/fa-regular-400.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-regular-400.woff2") format("embedded-opentype"), url("fonts/fa-regular-400.woff2") format("woff2"), url("fonts/fa-regular-400.woff") format("woff"), url("fonts/fa-regular-400.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-regular-400.svg") format("svg");
+  /* Legacy iOS */
+}
+@font-face {
+  font-family: "Font-Solid";
+  src: url("fonts/fa-solid-900.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("fonts/fa-solid-900.woff2") format("woff2"), url("fonts/fa-solid-900.woff") format("woff"), url("fonts/fa-solid-900.ttf") format("truetype"), url("https://github.com/becodeorg/bxl-Johnson-6-30/blob/main/1.The-Field/Day%2015/Wireframe-02/webfonts/fa-solid-900.svg") format("svg");
+  /* Legacy iOS */
+}
+/* colors */
+/* overall styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85em;
+  background: linear-gradient(180deg, #c6e9f8 0%, white 30%, #c6e9f8 100%);
+}
+
+/* section 3 */
+.three {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.slogan-container p {
+  font-size: 1.55em;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+/* section 4 */
+.four {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.usp-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.usp-box {
+  width: 300px;
+  height: 300px;
+  background-color: #f0fafc;
+  padding: 0px;
+  margin: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.usp-box .usp-icon {
+  height: 50px;
+  width: auto;
+  margin: 15px 0;
+}
+.usp-box h3 {
+  margin: 10;
+}
+.usp-box p {
+  margin: 0;
+  text-align: center;
+  color: grey;
+  line-height: 1.5em;
+  padding: 0 30px;
+}

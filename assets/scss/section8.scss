@@ -1,0 +1,96 @@
+@use "general" as *;
+
+.eight{
+    background-image: url("/assets/img/pricing-background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.pricing-bg{
+    //background-color: rgba(62,73,79,0.9);
+}
+
+.pricing-container{
+    display:flex;
+    flex-flow: column;
+    margin: 0 10%;
+
+}
+.pricing-tag{
+    text-align: center;
+    color: white;
+    padding:75px;
+    h2{
+        font-size: 2em;
+    }
+    p{
+        position: relative;
+        width: 80%;
+        left:10%;
+        line-height: 1.5em;
+    }
+}
+.pricing-offer{
+    display:flex;
+    flex-flow: row no-wrap;
+    justify-content: center;
+    
+
+    .pricing-card{
+        flex: 1;
+        position: relative;
+        background-color: white;
+        border: 1px solid lightgrey;
+        border-radius: 10px;
+        margin: 0 20px;
+        padding: 20px;
+        text-align: center;
+        h4{
+            text-transform: uppercase;
+            color: $pink;
+        }
+        .price{
+            font-size: 4em;
+            line-height: 0.3;
+            margin:40px;
+
+            .dollar{
+                font-size: 0.5em;
+                margin: 5px;
+            }
+            .monthly{
+                font-size: 0.25em;
+                color: $grey-text;
+            }
+        }
+        ul{
+            font-size:0.95em;
+            color: $grey-text;
+            text-align: left;
+            list-style: none;
+            padding:0;
+            margin: 0 20px 50px 20px;
+            li{
+                margin: 10px 0;
+                i{
+                    font-size:0.7em;
+                    color: $purple;
+                
+                }
+            }
+            li:first-child{
+                margin-top:15px;
+            }
+        }
+        button{
+            background-color: $purple;
+            color: white;
+            padding: 15px 35px;
+            border: 0;
+            border-radius: 25px;
+            width: 50%;
+            position: absolute;
+            left:25%;
+        }
+    }
+}

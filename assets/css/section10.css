@@ -1,0 +1,86 @@
+.ten {}
+
+.footer-contact {
+    display: flex;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.footer-text {
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #594CDA;
+}
+
+.buttons-footer {
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    align-content: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    padding: 35px;
+}
+
+.social-icons i {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.footer-copyright div {}
+
+.terms-wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+.end-footer {
+    color: rgb(77, 68, 68);
+    margin-right: 15px;
+}
+
+.end-footer p {
+    font-size: 12px;
+}
+
+.Up-botton {
+    background-color: darkgrey;
+}
+
+.footerlogo {
+    filter: invert(100%);
+    padding: 6px;
+    height: 50px;
+}
+
+.footerlogo:hover {
+    filter: none;
+    cursor: pointer;
+}

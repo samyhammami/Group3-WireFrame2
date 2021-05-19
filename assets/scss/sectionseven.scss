@@ -1,0 +1,54 @@
+.seven {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .testimony-container{
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: #F0FAFC;
+  }
+
+  .testi {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .testi p {
+    font-style: italic;
+    color: #CAD3D7;
+    font-size: 14px;
+  }
+
+  .testimage{
+    
+      width: 80px;
+      clip-path:ellipse(50% 50%);
+  }
+  .title-container{
+    background-color: #F0FAFC;
+    width: 90%;
+
+  }
+  .title-container h3 {
+    font-size: 1.75em;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #333333;
+
+  }
+
+ 

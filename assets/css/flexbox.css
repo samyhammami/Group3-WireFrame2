@@ -1,0 +1,23 @@
+* {
+  border: 1px solid blue;
+}
+
+h3, p {
+  margin: 0;
+}
+
+.number-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.number-wrapper .numbers {
+  background-color: red;
+}
+.number-wrapper .numbers h3 {
+  font-family: sans-serif;
+}
+.number-wrapper .numbers p {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=flexbox.css.map */
